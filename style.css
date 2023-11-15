@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.container {
+    border: 2px solid whitesmoke;
+    box-shadow: 0 0 10px whitesmoke, inset 0 0 10px whitesmoke;
+    padding: 5rem;
+    border-radius: 10px;
+    text-align: center;
+    width: 500px;
+}
+
+p {
+    margin: 2rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.reset {
+    background-color: red;
+    flex: 1;
+}
+
+.generate-password {
+    background-color: green;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.copy {
+    background-color: whitesmoke;
+    color: black;
+    flex: 1;
+}
+
+button {
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px whitesmoke;
+    cursor: pointer;
+    font-size: .7rem;
+    color: whitesmoke;
+}
+
+button:hover {
+    scale: .98;
+    opacity: .9;
+}
+
+@media screen and (max-width: 550px) {
+    .container {
+        width: 300px;
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 315px) {
+    .container {
+        width: 150px;
+        padding: .7rem;
+    }
+
+    p {
+        margin: .5rem;
+        font-size: .7rem;
+    }
+
+    h1 {
+        font-size: .8rem;
+    }
+
+    button {
+        font-size: .5rem;
+        height: 15px;
+    }
+}
