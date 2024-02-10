@@ -4,7 +4,10 @@ This is a simple web application that allows users to generate secure passwords 
 
 ## Live Link
 
-[Password Generator](https://your-password-generator-link.com)
+[Password Generator](https://password-genarator-delta.vercel.app/)
+## Screenshots
+
+![Password Generator](./Screenshot_2.jpg)
 
 ## Features
 
@@ -29,9 +32,9 @@ This is a simple web application that allows users to generate secure passwords 
 4. If you want to reset the password display, click on the "Reset" button.
 5. To copy the generated password to your clipboard, click on the "Copy" button.
 
-## Screenshots
+## Responsive Design
 
-![Password Generator](screenshot.png)
+![Password Generator](./Screenshot_1.jpg)
 
 ## File Structure
 
